@@ -28,14 +28,3 @@ for fruit in fruits:
 # 7. Slicing
 numbers = [10, 20, 30, 40, 50, 60]
 print("Sliced List:", numbers[1:4])
-
-# 8. Tuple Example
-colors = ("red", "green", "blue")
-print("Tuple:", colors)
-print("First Color:", colors[0])
-
-# 9. Tuple to List Conversion
-temp = list(colors)
-temp.append("yellow")
-colors = tuple(temp)
-print("Modified Tuple:", colors)
