@@ -1,3 +1,5 @@
+
+
 # 1. List Example
 fruits = ["apple", "banana", "cherry", "apple"]
 print("Original List:", fruits)
