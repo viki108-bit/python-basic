@@ -1,0 +1,53 @@
+
+# Simple if
+age = 20
+if age >= 18:
+    print("You are an adult.")
+
+# if...else
+age = 16
+if age >= 18:
+    print("You can vote.")
+else:
+    print("You cannot vote.")
+
+# if...elif...else
+marks = 85
+if marks >= 90:
+    print("Grade A+")
+elif marks >= 75:
+    print("Grade A")
+elif marks >= 60:
+    print("Grade B")
+else:
+    print("Fail")
+
+# Nested if
+age = 25
+if age >= 18:
+    if age < 60:
+        print("Adult but not senior citizen")
+
+# Short Hand if
+a = 10
+b = 20
+if a < b: print("a is smaller")
+
+# Short Hand if...else
+x = 5
+y = 10
+print("x is greater") if x > y else print("y is greater")
+
+# Logical operators
+x = 15
+y = 5
+if x > 10 and y < 10:
+    print("Both conditions are True")
+
+# Real-life example
+password = "admin123"
+user_input = "admin123"
+if user_input == password:
+    print("Login Successful ✅")
+else:
+    print("Incorrect Password ❌")
